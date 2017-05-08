@@ -12,7 +12,7 @@ public class Jook{
 	public double suhkurPerPurk(){
 		return kogus*suhkur*(double)10;
 	}
-	//lisage funktsioon ristkyliku ymberm66du arvutamiseks
+
 	public double energiaPerPurk(){
 		return kogus*energia*(double)10;
 	}
