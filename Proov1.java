@@ -1,12 +1,12 @@
 public class Proov1{
 	public static void main(String[] args){
-		Ristkylik laud1=new Ristkylik(2, 1);
-		Ristkylik laud2=new Ristkylik(1.5, 1);
-		Ristkylik laud3=new Ristkylik(2, 1.5);
-		System.out.println(laud1.pindala()+" "+laud1.ymberm66t());
-		System.out.println(laud2.pindala());
-		System.out.println(laud3.pindala());
-		System.out.println(laud1);
-		System.out.println(laud2.toString());
+		Jook sidrunilimonaad = new Jook("Sidrunilimonaad", 0.33, 6.8, 28);
+		Jook mullivesi = new Jook("Mullivesi", 0.5, 0, 0);
+		System.out.println(sidrunilimonaad.toString());
+		System.out.println(mullivesi.toString());
+		/**
+		 *  Joogis nimega Sidrunilimonaad on 22.44grammi suhkrut ja 92.4 kcal energiat.
+		 *	Joogis nimega Mullivesi on 0.0grammi suhkrut ja 0.0 kcal energiat.
+		 */
 	}
 }
